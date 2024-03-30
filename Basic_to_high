@@ -1,0 +1,171 @@
+What is HTML?
+HTML stands for Hyper Text Markup Language
+Using HTML, we can create Web Pages
+Example: Inspect any website say QAFox.com
+Browsers can read these HTML and display the content accordingly
+Recommended Editor for Notepad++
+Download and install Notepad++
+Create a Web Page from Scratch
+Basic Structure of HTML Page
+<html> </html>
+<head></head>
+<body></body>
+Saving the HTML page
+.htm or .html file
+Title of the web page
+<title></title>
+Entering normal text in the body without any tags
+Different sizes of Page Headings
+<h1> </h1>
+<h2> </h2>
+<h3> </h3>
+<h4> </h4>
+<h5> </h5>
+<h6> </h6>
+Creating a Paragraph 
+<p> </p>
+Going to next line
+<br/> or <br>
+br stands for break
+Ruler
+<hr/> or <hr>
+hr stands for horizontal ruler
+Creating Links
+<a href="https://www.qafox.com/"> Visit QAFox </a>
+target="_blank"
+Creating Images
+<img src="path of image" width="100" height="200" alt="alternative text" />
+Image inside the same folder of the HTML file
+<img src="FreeEbook.png" />
+Image inside the child folder of the HTML file folder
+<img src="sub/FreeEbook.png" />
+Image link
+<a> <img /> </a>
+Email link
+<a href="mailto:abc@def.com"> Email Here </a>
+Displaying the preformatted text
+<pre> </pre>
+Displaying text in bold
+<b> </b>
+Displaying text in italic
+<i> </i>
+Underline the text
+<u> </u>
+Strike off the text
+<del> </del>
+HTML Web Element
+<tagName attributes > Content </tagName>
+Empty Elements
+<br/>
+<hr/>
+Comments in HTML
+<!-- Single Line or Multi Line Comments Text Here -->
+iframes
+Used to display a web page within a web page
+<iframe src="html URL path" height="300 "  width="650"></iframe>
+There are other types of frames, where the pages or page portions from the same website can be displayed as frames
+Tables
+<table> </table>
+<thead> and <tbody> are optional
+Order lists
+<ol> <li> </li> </ol>
+Unordered lists
+<ul> <li> </li> </ul>
+Nested lists
+We can create order lists under unordered lists
+We can create unordered lists under order lists
+Creating Text Box field
+<input type="text">
+placeholder attribute
+value attribute for preloaded text
+readonly attribute - Text cannot be modified 
+hidden attribute - Text box field won't be displayed on the page
+disabled attribute - Text box field will be in disabled state
+Creating Password field
+<input type="password">
+placeholder attribute
+Creating a Button
+<input type="Button">
+value attribute for label of the button
+Creating Radio button
+<input type="radio">
+<input type="radio"> Car </input>
+name attribute for grouping
+Creating Checkbox field
+<input type="checkbox">
+<input type="checkbox"> Green </input>
+name attribute for grouping the above check boxes
+checked attribute
+Creating Submit button
+<input type="submit">
+<input type="submit" value="Submit">
+submit button inside <form> </form> tags and you can see the difference, where the form is getting submitted
+Creating Reset button
+<input type="reset" value="Reset">
+This only works inside the <form> </form> tags
+Creating Dropdown field
+<select> <option> Option1 </option> </select>
+selected attribute
+value attribute - If this dropdown is inside a form, the value of the value attribute of the selected option will be submitted to the server
+Creating Multi-selection box field
+<select multiple> <option> Option1 </option> </select>
+Creating a textarea field
+<textarea rows="10" cols="20"> </textarea>
+Text to be preloaded need to be provided between the above tags
+Creating the button a different way
+<button> Button Label Text </button>
+Writing JavaScript code inside the HMTL
+<script> </script> tags can be used to enclose the JavaScript code in HTML
+console.log("QAFox.com")
+var a=5; var b=4; console.log(a+b);
+document.write("QAFox.com")
+document.write("<h1> QAFox.com </h1>")
+document.write("<p> You can find the easiest Software Testing Tutorials here. </p>")
+Creating functions - View Code Here
+id attribute
+id attribute for uniqueness - Practical demonstration of this using JavaScript - View Code Here
+name attribute
+name attribute is used for specifying the name for an HTML element and it has many purposes
+name attribute for grouping - As we have already seen by grouping radio buttons 
+name attribute is specified for all the HTML elements inside the form as part of their submission
+Example: http://tutorialsninja.com/demo/index.php?route=account/register
+name attribute and fieldset
+<fieldset> </fieldset> is for grouping related fields in a form
+Practical Demonstration - View Code Here
+And many more
+style attribute (In-line CSS)
+<p style="color:green"> The color of this para is green </p>
+<p style="font-size:30px"> The size of this text is 30px </p>
+<p style="font-family:SimSun"> The font of this text is SimSun </p>
+<p style="background-color:yellow"> The background color of this text is yellow </p>
+<p style="text-align:center"> This text is a central assigned text </p>
+<style> - (Internal CSS)
+View Code Here
+<link> - (External CSS)
+<link rel="stylesheet" href="abc.css">
+Keep both html file having the above link tag and css file in the same folder and try
+View CSS File Here
+View HTML File Here
+class attributes to the elements
+class for CSS Styling are used to point to a Class in a Style sheet
+Creating a bookmark 
+href and id (Find code here)
+Creating am Image Map
+https://www.image-map.net/
+<img src="https://4.bp.blogspot.com/-J48APmXR718/WzUiuSD6uEI/AAAAAAAAl-0/fP89WAAgNSsM1eFlNTJVtN5_u0mCW8LdACLcBGAs/s1600/FreeEbook.png" usemap="abc">
+<map name="abc"> 
+<area href="" target="_blank" shape="react" coords="17,0,222,48"> 
+</map>
+<div> is a container for HTML elements
+CSS styling can be applied for the HTML elements grouped in the div tag - View Code Here
+<span> is part of an HTML element
+CSS styling can be applied to a part of the HTML element using span tag - View Code Here
+<base>
+Represents the base address of the page
+View Code Here
+<meta>
+For search engines
+Refer this page
+<!DOCTYPE html> - Document type declaration defines that this document is an HTML5 document to the web browsers
+<strong>
+<em>
