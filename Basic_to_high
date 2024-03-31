@@ -84,6 +84,17 @@ Image inside the child folder of the HTML file folder
 <img src="sub/FreeEbook.png" />
 Image link
 <a> <img /> </a>
+
+<html>
+
+<head>
+	<title>HTML PROGRAMMING LANGUAGE</title>
+</head>
+<body>
+	<a href="https://hclo365.sharepoint.com/sites/MYHCLTech" target="_blank" ><img src="download.jpg" width="800" height="500" alt="natureimage"></a>
+</body>
+</html>
+
 Email link
 <a href="mailto:abc@def.com"> Email Here </a>
 Displaying the preformatted text
