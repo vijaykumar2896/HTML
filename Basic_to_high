@@ -97,6 +97,17 @@ Image link
 
 Email link
 <a href="mailto:abc@def.com"> Email Here </a>
+
+<html>
+
+<head>
+	<title>HTML PROGRAMMING LANGUAGE</title>
+</head>
+<body>
+	<a href="mailto:abc@def.com">Email Me</a>
+</body>
+</html>
+
 Displaying the preformatted text
 <pre> </pre>
 Displaying text in bold
