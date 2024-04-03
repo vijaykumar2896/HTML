@@ -126,17 +126,50 @@ Empty Elements
 <hr/>
 Comments in HTML
 <!-- Single Line or Multi Line Comments Text Here -->
+
+
 iframes
 Used to display a web page within a web page
 <iframe src="html URL path" height="300 "  width="650"></iframe>
 There are other types of frames, where the pages or page portions from the same website can be displayed as frames
+<html>
+
+<head>
+	<title>HTML WEB ELEMENT</title>
+</head>
+<body>
+		<iframe src="https://www.qafox.com/" width="500" height ="600"></iframe>
+		<iframe src="https://selenium-by-arun.blogspot.com/" width = "500" height ="600"></iframe>
+</body>
+</html>
+
 Tables
 <table> </table>
 <thead> and <tbody> are optional
+
+<table border="2">
+			<thead>
+			<tr>
+				<th>Name</th>
+				<th>Age</th>
+				<th>Place</th>
+			</tr>
+			</thead>
+		
+			<tbody>
+			<tr>
+				<td>Vijay</td>
+				<td>27</td>
+				<td>Chennai</td>
+			<tr>
+			</tbody>
+
 Order lists
 <ol> <li> </li> </ol>
 Unordered lists
 <ul> <li> </li> </ul>
+
+
 Nested lists
 We can create order lists under unordered lists
 We can create unordered lists under order lists
