@@ -198,6 +198,32 @@ checked attribute
 Creating Submit button
 <input type="submit">
 <input type="submit" value="Submit">
+
+<html>
+
+<head>
+	<title>HTML WEB ELEMENT</title>
+</head>
+<body>
+		UserName: <input type="text" placeholder ="Username">
+		<br>
+		Password: <input type="password" place holder="password">
+		<br>
+		<input type ="Button" Value ="Login">
+		<br>
+		<input type ="Radio" name ="Vehicle">Car</input>
+		<input type="Radio" name ="Vehicle">Bike</input>
+		<input type ="Radio" name ="Vehicle">BiCycle</input>
+		<br>
+		<input type = "Checkbox">Pen</input>
+		<input type = "Checkbox">Pencil</input>
+		<input type = "Checkbox">Paper</input>
+		<input type = "Checkbox">Eraser</input>
+		<input type = "Submit">
+		
+</body>
+</html>
+
 submit button inside <form> </form> tags and you can see the difference, where the form is getting submitted
 Creating Reset button
 <input type="reset" value="Reset">
