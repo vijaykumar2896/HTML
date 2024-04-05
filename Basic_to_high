@@ -266,6 +266,29 @@ document.write("QAFox.com")
 document.write("<h1> QAFox.com </h1>")
 document.write("<p> You can find the easiest Software Testing Tutorials here. </p>")
 Creating functions - View Code Here
+
+<html>
+
+<head>
+	<title>HTML WEB ELEMENT</title>
+	<script>
+		function Hello()
+		{
+			document.write("Hello world");
+		}
+		function bye()
+		{
+			document.write("Bye Everyone");
+		}
+		
+	</script>
+</head>
+<body>
+	<button onclick="Hello()">Say Hello</button>
+	<button onclick="bye()">Bye</button>
+</body>
+</html>
+
 id attribute
 id attribute for uniqueness - Practical demonstration of this using JavaScript - View Code Here
 name attribute
