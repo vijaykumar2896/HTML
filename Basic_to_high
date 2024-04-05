@@ -228,11 +228,30 @@ submit button inside <form> </form> tags and you can see the difference, where t
 Creating Reset button
 <input type="reset" value="Reset">
 This only works inside the <form> </form> tags
+
 Creating Dropdown field
 <select> <option> Option1 </option> </select>
 selected attribute
 value attribute - If this dropdown is inside a form, the value of the value attribute of the selected option will be submitted to the server
 Creating Multi-selection box field
+<html>
+
+<head>
+	<title>HTML WEB ELEMENT</title>
+</head>
+<body>
+		<select>
+		<option>Blue</option>
+		<option>Green</option>
+		<option>Yellow</option>
+		<option selected>REd</option>
+		<option>Maron</option>
+		
+		</select>
+		
+</body>
+</html>
+
 <select multiple> <option> Option1 </option> </select>
 Creating a textarea field
 <textarea rows="10" cols="20"> </textarea>
