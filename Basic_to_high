@@ -299,6 +299,23 @@ Example: http://tutorialsninja.com/demo/index.php?route=account/register
 name attribute and fieldset
 <fieldset> </fieldset> is for grouping related fields in a form
 Practical Demonstration - View Code Here
+<html>
+
+<head>
+	<title>HTML WEB ELEMENT</title>
+</head>
+<body>
+	<form>
+		<fieldset name ="fs">
+		<input type ="text" placeholder ="first_name"><br>
+		<input type ="text" placeholder ="last_name"><br>
+		</fieldset>
+		<input type ="text" placeholder ="email"><br>
+		<button type ="button" onclick="form.fs.style.background='green'">submit</submit>
+	</form>
+</body>
+</html>
+
 And many more
 style attribute (In-line CSS)
 <p style="color:green"> The color of this para is green </p>
