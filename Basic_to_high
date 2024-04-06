@@ -342,6 +342,24 @@ style attribute (In-line CSS)
 View Code Here
 <link> - (External CSS)
 <link rel="stylesheet" href="abc.css">
+
+<html>
+
+<head>
+	<title>HTML WEB ELEMENT</title>
+		<link rel="stylesheet" href="demo.css">
+</head>
+<body>
+	<p>This is first one</p>
+	<p>This is first one</p>
+	<p id="tone">This is first one</p>
+	<p>This is first one</p>
+	<p>This is first one</p>
+	<h1>headingq1<h1>
+	
+</body>
+</html>
+
 Keep both html file having the above link tag and css file in the same folder and try
 View CSS File Here
 View HTML File Here
