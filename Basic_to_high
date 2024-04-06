@@ -323,6 +323,21 @@ style attribute (In-line CSS)
 <p style="font-family:SimSun"> The font of this text is SimSun </p>
 <p style="background-color:yellow"> The background color of this text is yellow </p>
 <p style="text-align:center"> This text is a central assigned text </p>
+<html>
+
+<head>
+	<title>HTML WEB ELEMENT</title>
+</head>
+<body>
+	<p style="color:red">This is first one</p>
+	<p style="text-align:center">This is first one</p>
+	<p style="font-family:broadway">This is first one</p>
+	<p style= "font-size:30px">This is first one</p>
+	<p style = "background-color:green">This is first one</p>
+	
+</body>
+</html>
+
 <style> - (Internal CSS)
 View Code Here
 <link> - (External CSS)
