@@ -14,3 +14,20 @@ CSS describes how HTML elements be displayed.
 1. Inline CSS
 2. Internal CSS
 3. External CSS
+
+1. Inline CSS
+
+<html>
+
+<head>
+	<title>HTML WEB ELEMENT</title>
+	<p style="background-color:red">Apple<p>
+	<p style="background-color:orange">Orange<p>
+	<p style="background-color:yellow">Mango<p>
+		
+</head>
+<body>
+</body>
+</html>
+
+
