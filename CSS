@@ -30,4 +30,48 @@ CSS describes how HTML elements be displayed.
 </body>
 </html>
 
+2. Internal CSS
+
+<html>
+
+<head>
+	<title>CSS WEB ELEMENT</title>
+	<style>
+	h1{
+		color:blue;
+	}
+	p{
+		color:red;
+	}
+	</style>
+		
+</head>
+<body>
+
+<h1>apple</h1>
+<p> Paragraph</p>
+</body>
+</html>
+
+3. External CSS: 
+
+<html>
+
+<head>
+	<title>CSS WEB ELEMENT</title>
+	<link rel="stylesheet" href="demo.css">
+		
+</head>
+<body>
+<h1>Error Makes clever</h1>
+</body>
+</html>
+
+CSS file : 
+
+h1{color:red}
+h1{background-color:blue}
+
+
+
 
